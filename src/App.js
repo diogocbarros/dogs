@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import UserPost from './API/UserPost';
 import './App.css';
-
+import TokenPost from './API/TokenPost';
+import PhotoPost from './API/PhotoPost';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <UserPost />
+      <br />
+      <hr />
+      <br />
+      <TokenPost />
+      <br />
+      <hr />
+      <br />
+      <PhotoPost />
     </div>
   );
 }
