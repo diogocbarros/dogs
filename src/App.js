@@ -1,9 +1,14 @@
 import React from 'react';
+import './App.css';
+import UserPost from './API/UserPost';
+import TokePost from './API/TokePost';
 
 function App() {
   return (
     <div>
-      app
+      <UserPost />
+      <p></p>
+      <TokePost />
     </div>
   );
 }
