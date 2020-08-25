@@ -3,18 +3,20 @@ import UserPost from './API/UserPost';
 import './App.css';
 import TokenPost from './API/TokenPost';
 import PhotoPost from './API/PhotoPost';
+import PhotoGet from './API/PhotoGet';
 function App() {
   return (
     <div>
       <UserPost />
       <br />
       <hr />
-      <br />
       <TokenPost />
       <br />
       <hr />
-      <br />
       <PhotoPost />
+      <br />
+      <hr />
+      <PhotoGet />
     </div>
   );
 }
