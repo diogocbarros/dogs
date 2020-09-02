@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Header />
         <Routes>
-          <Header />
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Footer />
+          <Route path="/login/*" element={<Login />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

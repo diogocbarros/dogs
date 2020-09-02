@@ -12,11 +12,11 @@ const Header = () => {
         <Link className={styles.logo} to="/" aria-label="Dogs - Home">
           <Dogs />
         </Link>
-        <Link className={styles.login} to="/conta">
+        <Link className={styles.conta} to="/conta">
         </Link>
         <Link className={styles.login} to="/login">
           Login / Criar
-            </Link>
+        </Link>
 
       </nav>
     </header>
